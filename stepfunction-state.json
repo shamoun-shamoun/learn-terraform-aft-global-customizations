@@ -1,0 +1,35 @@
+{
+    "include": [
+      {
+        "type": "all"
+      },
+      {
+        "type": "ous",
+        "target_value": [ "ou1","ou2"]
+      },
+      {
+        "type": "tags",
+        "target_value": [ {"key1": "value1"}, {"key2": "value2"}]
+      },
+      {
+        "type": "accounts",
+        "target_value": [ "acc1","acc2"]
+      }
+    ],
+  
+    "exclude": [
+      {
+        "type": "ous",
+        "target_value": [ "ou1","ou2"]
+      },
+      {
+        "type": "tags",
+        "target_value": [ {"key1": "value1"}, {"key2": "value2"}]
+      },
+      {
+        "type": "accounts",
+        "target_value": [ "acc1","acc2"]
+      }
+    ]
+  }
+  
